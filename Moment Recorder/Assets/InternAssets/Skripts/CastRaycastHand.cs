@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class CastRaycastHand : MonoBehaviour
 {
+    [Header("References")]
+
     // Stores the line renderer used in the hand as a pointer
-    public GameObject lineRendererObject;
+    [SerializeField] private GameObject lineRendererObject;
     private LineRenderer renderLine;
 
+    [Header("Line Properties")]
+
     // Information about the pointer
-    public float lineWidth = 0.1f;
-    public float lineMaxLength = 1f;
+    [SerializeField] private float lineWidth = 0.1f;
+    [SerializeField] private float lineMaxLength = 1f;
 
     // Stores the current pointed game object
     private GameObject target;
 
     // Store the diferent types of tags for the game object in the scene
-    public string startSceneButton;
+    [SerializeField] private string startSceneButton;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +35,7 @@ public class CastRaycastHand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Define each frame how the line should look like
         RenderLine(lineRendererObject.transform.position, lineRendererObject.transform.forward, lineMaxLength);
     }
 

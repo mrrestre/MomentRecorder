@@ -248,7 +248,7 @@ MonoBehaviour:
   playableDirector: {fileID: 1855682679}
   isPlaying: 1
   isRewinding: 0
-  backwardsSteps: 0.1
+  backwardsSteps: 0.035
   backwardsButton: 16384
   pauseButton: 4194304
 --- !u!1001 &1063491186

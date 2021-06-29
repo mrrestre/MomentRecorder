@@ -6,66 +6,54 @@ using UnityEngine.Timeline;
 
 public class TimelineControl : MonoBehaviour
 {
-    public PlayableDirector playableDirector;
+    [Header("Timeline Components")]
 
-    public bool isPlaying = true;
+    // Where the Timeline of the scene is stored
+    [SerializeField] private PlayableDirector playableDirector;
 
-    public bool isRewinding = false;
-    public float backwardsSteps = 0.1f;
+    // Defines the amount of time that does backwards each frame (If the Backward Button is beeing pressed)
+    [SerializeField] private float backwardsStep = 0.035f;
 
-    public OVRInput.Button backwardsButton;
-    public OVRInput.Button pauseButton;
+    // Defines until which moment of the timeline the player is able to go back
+    [SerializeField] private float sceneStartTime = 1f;
 
+    [SerializeField] private bool isPlaying = true;
+    [SerializeField] private bool isRewinding = false;
 
-    // Start is called before the first frame update
-    void Start()
+    [Header("Input Components")]
+
+    [SerializeField] private OVRInput.Button backwardsButton;
+    [SerializeField] private OVRInput.Button pauseButton;
+
+    void Update()
     {
+        // Check if the pause button is pressed and toggle between playing and paused
         if (OVRInput.GetDown(pauseButton))
         {
-            if (isPlaying)
-            {
-                isPlaying = false;
-            }
-            else
-            {
-                isPlaying = true;
-            }
+            if (isPlaying) isPlaying = false;
+            else isPlaying = true;
         }
 
-        if (OVRInput.GetDown(backwardsButton))
-        {
-            isRewinding = true;
-        }
-        if (OVRInput.GetUp(backwardsButton))
-        {
-            isRewinding = false;
-        }
+        // Check if the Rewind button is pressed and rewind so long until the button is released
+        if (OVRInput.GetDown(backwardsButton))  isRewinding = true;
+        if (OVRInput.GetUp  (backwardsButton))  isRewinding = false;
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (isPlaying)
-        {
-            playableDirector.Play();
-        }
-        else if (!isPlaying)
-        {
-            playableDirector.Pause();
-        }
+        // Play only if the variable is Playing is true
+        if (isPlaying) playableDirector.Play();
+        else if (!isPlaying) playableDirector.Pause();
 
+        // This is the same as the button "BackwardButton" being pressed
         if (isRewinding)
         {
-            if (!isPlaying)
-            {
-                playableDirector.Play();
-            }
+            // For seeing how the time goes backwards
+            if (!isPlaying) playableDirector.Play();
 
-            if (playableDirector.time >= 1f)
-            {
-                playableDirector.time -= backwardsSteps;
-            }
-
+            // Stop rewinding at a given moment (Scene Start)
+            if (playableDirector.time >= sceneStartTime) playableDirector.time -= backwardsStep;
         }
     }
 }

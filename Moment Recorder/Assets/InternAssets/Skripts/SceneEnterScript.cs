@@ -5,47 +5,31 @@ using UnityEngine.SceneManagement;
 
 public class SceneEnterScript : MonoBehaviour
 {
+    [Header("Scene to Load")]
+
+    // Name of the Scene to be loaded
     [SerializeField] private string sceneName;
 
     [SerializeField] private float howLongWait = 1f;
+
+    // Loading screen to be loaded while a scene is being loaded
     [SerializeField] private GameObject loadingScreen;
-
-    [SerializeField] private GameObject leftDoor;
-    [SerializeField] private GameObject rightDoor;
-    [SerializeField] private bool doorsOpening = false;
-    [SerializeField] private float doorsSpeed = 0.1f;
-    
-
 
     public void PlayScene()
     {
         Debug.Log("Playing scene: " + sceneName);
-        doorsOpening = true;
 
+        StartCoroutine(LoadScene());
+    }
 
-        //StartCoroutine(WaitCoroutine());
-
-
+    private IEnumerator LoadScene()
+    {
         AsyncOperation loadingOperation = SceneManager.LoadSceneAsync(this.sceneName);
-        
-        if(loadingOperation.isDone)
-        {
-            loadingScreen.SetActive(false);
-        }
-    }
 
-    
-    void Update()
-    {
-        if(doorsOpening)
+        while (!loadingOperation.isDone)
         {
-            leftDoor.transform.position = new Vector3(leftDoor.transform.position.x, leftDoor.transform.position.y, leftDoor.transform.position.z - doorsSpeed);
-            rightDoor.transform.position = new Vector3(rightDoor.transform.position.x, rightDoor.transform.position.y, rightDoor.transform.position.z + doorsSpeed);
+            loadingScreen.SetActive(true);
+            yield return null;
         }
-    }
-
-    private IEnumerator WaitCoroutine()
-    {
-        yield return new WaitForSeconds(howLongWait);
     }
 }
