@@ -15,37 +15,13 @@ C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54451
+60633
 Successfully changed project path to: C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder
 C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 376.80 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 2.34 ms.
+Refreshing native plugins compatible for Editor in 1860.48 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 15.47 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 940MX (ID=0x179c)
-    Vendor:   
-    VRAM:     987 MB
-    Driver:   27.21.14.6627
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.295942 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 470.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.783 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.033338 seconds.
