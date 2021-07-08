@@ -13,7 +13,6 @@ public class CastRaycastHand : MonoBehaviour
     [Header("Line Properties")]
 
     // Information about the pointer
-    [SerializeField] private float lineWidth = 0.1f;
     [SerializeField] private float lineMaxLength = 1f;
 
     // Stores the current pointed game object
@@ -21,6 +20,9 @@ public class CastRaycastHand : MonoBehaviour
 
     // Store the diferent types of tags for the game object in the scene
     [SerializeField] private string startSceneButton;
+
+    // The Tag from the doors
+    [SerializeField] private string doorsTag;
 
     // Start is called before the first frame update
     void Start()
@@ -62,15 +64,16 @@ public class CastRaycastHand : MonoBehaviour
 
             //Debug.Log("Hitting " + target.name);
 
-            if (target.CompareTag(startSceneButton))
+            if (target.CompareTag(doorsTag))
             {
+                target.GetComponentInParent<LobbyDoorController>().isBeingPointedAt = true;
+
                 // If any of the back triggers is pressed
-                if(OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.Touch)      >= 0.5f ||
-                   OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger, OVRInput.Controller.Touch)    >= 0.5f )
+                if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.Touch) >= 0.5f ||
+                   OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger, OVRInput.Controller.Touch) >= 0.5f)
                 {
-                    target.GetComponentInParent<SceneEnterScript>().PlayScene();
+                    target.GetComponentInParent<LobbyDoorController>().OpenDoors();
                 }
-                Debug.Log("Hitting " + startSceneButton);
             }
         }
 

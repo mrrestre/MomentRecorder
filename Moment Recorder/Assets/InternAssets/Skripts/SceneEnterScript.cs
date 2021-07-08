@@ -10,26 +10,30 @@ public class SceneEnterScript : MonoBehaviour
     // Name of the Scene to be loaded
     [SerializeField] private string sceneName;
 
-    [SerializeField] private float howLongWait = 1f;
+    [Header("Loading Screen")]
 
     // Loading screen to be loaded while a scene is being loaded
     [SerializeField] private GameObject loadingScreen;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PlayScene();
+        }
+    }
+
+
     public void PlayScene()
     {
-        Debug.Log("Playing scene: " + sceneName);
-
+        loadingScreen.SetActive(true);
         StartCoroutine(LoadScene());
     }
 
     private IEnumerator LoadScene()
     {
-        AsyncOperation loadingOperation = SceneManager.LoadSceneAsync(this.sceneName);
+        yield return new WaitForSeconds(1);
 
-        while (!loadingOperation.isDone)
-        {
-            loadingScreen.SetActive(true);
-            yield return null;
-        }
+        SceneManager.LoadScene(this.sceneName);
     }
 }
