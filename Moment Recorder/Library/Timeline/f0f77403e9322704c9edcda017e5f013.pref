@@ -16,7 +16,7 @@ MonoBehaviour:
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 0
+  windowTime: 16.276544193923474
   verticalScroll: 0
   showMarkerHeader: 0
   sequencerHeaderWidth: 315
@@ -24,9 +24,9 @@ MonoBehaviour:
   - {fileID: 8427514248051180657, guid: f0f77403e9322704c9edcda017e5f013, type: 2}
   - {fileID: -4797173149567663699, guid: f0f77403e9322704c9edcda017e5f013, type: 2}
   - {fileID: 5174083938406205947, guid: f0f77403e9322704c9edcda017e5f013, type: 2}
-  - {fileID: -2583405806032863255, guid: f0f77403e9322704c9edcda017e5f013, type: 2}
+  - {fileID: -7155661805289357416, guid: f0f77403e9322704c9edcda017e5f013, type: 2}
   m_Vals:
-  - collapsed: 1
+  - collapsed: 0
     showMarkers: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
