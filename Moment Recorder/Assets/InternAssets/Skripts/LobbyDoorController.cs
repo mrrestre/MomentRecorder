@@ -10,8 +10,6 @@ public class LobbyDoorController : MonoBehaviour
     public bool isBeingPointedAt = false;
     [SerializeField] private PlayableDirector pd;
 
-    public float howLongDoorsOpen = 1f;
-
     private void Update()
     {
         if (isBeingPointedAt)

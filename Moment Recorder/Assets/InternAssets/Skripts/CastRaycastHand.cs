@@ -24,6 +24,11 @@ public class CastRaycastHand : MonoBehaviour
     // The Tag from the doors
     [SerializeField] private string doorsTag;
 
+    [Header("Help")]
+
+    [SerializeField] private OVRInput.Button helpButton;
+    [SerializeField] public LobbyMessageController lobbyMessageController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +44,13 @@ public class CastRaycastHand : MonoBehaviour
     {
         // Define each frame how the line should look like
         RenderLine(lineRendererObject.transform.position, lineRendererObject.transform.forward, lineMaxLength);
+
+        // Check if the help button is pressed
+        if (OVRInput.GetDown(helpButton))
+        {
+            lobbyMessageController.PlayHelpsAgain();
+        }
+
     }
 
     // Manage the direction of the current line renderer
