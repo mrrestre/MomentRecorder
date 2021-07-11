@@ -5417,7 +5417,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: f0f77403e9322704c9edcda017e5f013, type: 2}
   m_InitialState: 0
-  m_WrapMode: 2
+  m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -10200,11 +10200,55 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3147321167708638053, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315019895538336804, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044312583427133283, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044312583427133283, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044312583427133283, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4334546150570992363, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334546150570992363, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665844180435061736, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961988300201648524, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961988300201648524, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045772351200578997, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045772351200578997, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045772351200578997, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -10365,6 +10409,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5252745427826175780, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: isPlaying
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252745427826175780, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
       propertyPath: playableDirector
       value: 
       objectReference: {fileID: 48083269}
@@ -10495,6 +10543,10 @@ PrefabInstance:
     - target: {fileID: 7954938960379328052, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.06470141
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439389472468892793, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8698022013781864573, guid: ba6baaa1027a8b54c905eeb6dfcf7b51, type: 3}
       propertyPath: m_Camera

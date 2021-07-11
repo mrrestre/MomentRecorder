@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Playables;
-using UnityEngine.Timeline;
 using UnityEngine.SceneManagement;
 
 public class TimelineControl : MonoBehaviour
@@ -22,6 +21,7 @@ public class TimelineControl : MonoBehaviour
     [SerializeField] private bool isRewinding = false;
 
     [SerializeField] private bool hasStarted = false;
+    [SerializeField] private bool hasFinished = false;
 
     [Header("Input Components")]
 
@@ -41,38 +41,79 @@ public class TimelineControl : MonoBehaviour
     [SerializeField] private GameObject UIpauseButton;
     [SerializeField] private GameObject UIrewindButton;
 
+    [Header("UI Timeline")]
+    [SerializeField] private GameObject UITimeline;
+    private Slider UISlider;
+
     [Header("Help")]
 
     [SerializeField] private OVRInput.Button helpButton;
     [SerializeField] public SceneMessageController sceneMessageController;
 
+    private void Start()
+    {
+        UISlider = UITimeline.GetComponent<Slider>();
+        UISlider.maxValue = (float)playableDirector.duration;
+        UISlider.value = 0;
+    }
+
     void Update()
     {
-        // Check if the pause button is pressed and toggle between playing and paused
-        if (OVRInput.GetDown(pauseButton))
+        if(!hasFinished)
         {
-            if (!hasStarted) 
-                hasStarted = true;
-            if (isPlaying) 
+            // Check if the pause button is pressed and toggle between playing and paused
+            if (OVRInput.GetDown(pauseButton))
+            {
+                if (!hasStarted)
+                    hasStarted = true;
+                if (isPlaying)
+                    isPlaying = false;
+                else if (!isPlaying)
+                    isPlaying = true;
+            }
+
+            // Check if the Rewind button is pressed and rewind so long until the button is released
+            if (OVRInput.GetDown(backwardsButton)) isRewinding = true;
+            if (OVRInput.GetUp(backwardsButton)) isRewinding = false;
+
+            // Check if the help button is pressed
+            if (OVRInput.GetDown(helpButton))
+            {
+                sceneMessageController.PlayHelpsAgain();
+            }
+
+            // Go back to the lobby
+            if (OVRInput.GetDown(backToLobby))
+            {
+                backToLobbyPressed = true;
+            }
+
+            //Set the current time in the timeline
+            UISlider.value = (float)playableDirector.time;
+
+
+            if (playableDirector.time == playableDirector.duration)
+            {
+                hasFinished = true;
+                hasStarted = false;
                 isPlaying = false;
-            else 
-                isPlaying = true;
+                playableDirector.Stop();
+            }
         }
-
-        // Check if the Rewind button is pressed and rewind so long until the button is released
-        if (OVRInput.GetDown(backwardsButton))  isRewinding = true;
-        if (OVRInput.GetUp  (backwardsButton))  isRewinding = false;
-
-        // Check if the help button is pressed
-        if (OVRInput.GetDown(helpButton))
+        else if (hasFinished)
         {
-            sceneMessageController.PlayHelpsAgain();
-        }
+            if (OVRInput.GetDown(pauseButton))
+            {
+                playableDirector.time = 0;
+                hasFinished = false;
+                sceneMessageController.SceneEndHide();
+            }
 
-        // Go back to the lobby
-        if (OVRInput.GetDown(backToLobby))
-        {
-            backToLobbyPressed = true;
+            // Go back to the lobby
+            if (OVRInput.GetDown(backToLobby))
+            {
+                backToLobbyPressed = true;
+            }
         }
     }
 
@@ -126,6 +167,10 @@ public class TimelineControl : MonoBehaviour
             StartCoroutine(LoadLobby());
         }
 
+        if (hasFinished)
+        {
+            sceneMessageController.SceneEndShow();
+        }
     }
 
     private IEnumerator LoadLobby()
@@ -134,4 +179,5 @@ public class TimelineControl : MonoBehaviour
 
         SceneManager.LoadScene(lobby);
     }
+
 }

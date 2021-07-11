@@ -2430,8 +2430,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281073408
-  m_fontColor: {r: 0, g: 1, b: 0.16886115, a: 1}
+    rgba: 2936012799
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.68235296}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3987,7 +3987,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Move around using the joysticks
+  m_text: Move around using the Thumbsticks
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 198b8e7f1c97a3542a2c0ba8f490e2d8, type: 2}
   m_sharedMaterial: {fileID: -4001659658487059447, guid: 198b8e7f1c97a3542a2c0ba8f490e2d8, type: 2}
@@ -4239,7 +4239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you need help, press the Button 'B' on the right Joystick
+  m_text: If you need help, press the Button 'B' on the right Controller
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 198b8e7f1c97a3542a2c0ba8f490e2d8, type: 2}
   m_sharedMaterial: {fileID: -4001659658487059447, guid: 198b8e7f1c97a3542a2c0ba8f490e2d8, type: 2}
@@ -8294,8 +8294,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: To enter a Memory, aproach a door open it with the Finger Triggers and
-    walk in
+  m_text: To enter a Memory, aproach a door open it with any Finger-Trigger and walk
+    in
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 198b8e7f1c97a3542a2c0ba8f490e2d8, type: 2}
   m_sharedMaterial: {fileID: -4001659658487059447, guid: 198b8e7f1c97a3542a2c0ba8f490e2d8, type: 2}

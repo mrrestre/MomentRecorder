@@ -10,6 +10,7 @@ public class SceneMessageController : MonoBehaviour
 
     public List<ExplanationStep> explanationSteps = new List<ExplanationStep>();
     public GameObject messageBackground;
+    public ExplanationStep sceneEnd;
 
     private IEnumerator coroutine;
 
@@ -72,6 +73,18 @@ public class SceneMessageController : MonoBehaviour
         }
 
         explanationWanted = true;
+    }
+
+    public void SceneEndShow()
+    {
+        messageBackground.SetActive(true);
+        sceneEnd.text.SetActive(true);
+    }
+
+    public void SceneEndHide()
+    {
+        messageBackground.SetActive(false);
+        sceneEnd.text.SetActive(false);
     }
 }
 
