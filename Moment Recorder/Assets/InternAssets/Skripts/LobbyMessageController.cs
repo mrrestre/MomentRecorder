@@ -21,6 +21,8 @@ public class LobbyMessageController : MonoBehaviour
     public bool endReached = false;
 
     public List<ExplanationStep> explanationSteps = new List<ExplanationStep>();
+    public GameObject background;
+    public bool shouldBackgroundBeShowned = true;
 
     private IEnumerator coroutine;
 
@@ -34,7 +36,20 @@ public class LobbyMessageController : MonoBehaviour
                 ExplanationStep ep = GetNextExplanationStep();
                 coroutine = DeactiveTextAfter(ep);
                 StartCoroutine(coroutine);
+                shouldBackgroundBeShowned = true;
             }
+            else
+            {
+                shouldBackgroundBeShowned = false;
+            }
+        }
+
+        if (shouldBackgroundBeShowned)
+        {
+            background.SetActive(true);
+        } else
+        {
+            background.SetActive(false);
         }
     }
 

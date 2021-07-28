@@ -48,6 +48,7 @@ public class TimelineControl : MonoBehaviour
     [Header("Help")]
 
     [SerializeField] private OVRInput.Button helpButton;
+    [SerializeField] private OVRInput.Button skipButton;
     [SerializeField] public SceneMessageController sceneMessageController;
 
     private void Start()
@@ -80,6 +81,12 @@ public class TimelineControl : MonoBehaviour
             if (OVRInput.GetDown(helpButton))
             {
                 sceneMessageController.PlayHelpsAgain();
+            }
+
+            // Check if the skip button is pressed
+            if (OVRInput.GetDown(skipButton))
+            {
+                sceneMessageController.SkipInstruction();
             }
 
             // Go back to the lobby

@@ -15,12 +15,12 @@ C:/Users/Administrator/Desktop/MomentRecorder/Moment Recorder
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64204
+50753
 Successfully changed project path to: C:/Users/Administrator/Desktop/MomentRecorder/Moment Recorder
 C:/Users/Administrator/Desktop/MomentRecorder/Moment Recorder
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 130.43 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.81 ms.
+Refreshing native plugins compatible for Editor in 144.42 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.42 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/MomentRecorder/Moment Recorder/Assets
@@ -36,48 +36,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001891 seconds.
+Registered in 0.001756 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.13 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 131.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.814 seconds
+- Completed reload, in  2.308 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007824 seconds.
+Registered in 0.007904 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021DFF6E79D0 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file data-000001FF08148F70 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021DFF5DE5D0 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001FF0807B010 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021DFF5F8F70 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file data-000001FF0E334840 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C4757D230 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FF08988230 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C4699BC20 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001FF08988230 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C46435010 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file data-000001FF0D70E010 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C4618FA30 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FF0D61BA20 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021DFF2BE430 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001FF0CB2AB00 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C46385020 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file data-000001FF0E23D010 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021DFF6E79D0 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001FF083B8B30 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C46915440 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001FF0DFAB490 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C470BEC90 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file data-000001FF086F57D0 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021C47027D90 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001FF08A3A080 doesn't match image C:\Users\Administrator\Desktop\MomentRecorder\Moment Recorder\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 130.70 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 156.02 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -85,194 +85,122 @@ Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.504 seconds
+- Completed reload, in  2.725 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 4759 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 252.1 MB.
 System memory in use after: 251.6 MB.
 
 Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5206.
-Total: 4.296700 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.339500 ms MarkObjects: 2.660800 ms  DeleteObjects: 0.790400 ms)
+Total: 5.594000 ms (FindLiveObjects: 0.444900 ms CreateObjectMapping: 0.228300 ms MarkObjects: 4.116200 ms  DeleteObjects: 0.803100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ExternAssets/sounds
-  artifactKey: Guid(0d22644601ef9c048aa413573a2fa5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds using Guid(0d22644601ef9c048aa413573a2fa5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b683ed751799facacbc5843ad33393') in 0.015349 seconds
-  Import took 0.023866 seconds .
+  path: Assets/ExternAssets/sounds/149190__videog__tiger-roar.flac
+  artifactKey: Guid(956bd146c176bdc4a9c7e35076f18173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/149190__videog__tiger-roar.flac using Guid(956bd146c176bdc4a9c7e35076f18173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7486da07f8837cdcd8511c88750d2666') in 0.110446 seconds
+  Import took 0.120461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.475869 seconds.
-  path: Assets/ExternAssets/sounds/417872__agim__jungle-in-maharashtra-at-night.m4a
-  artifactKey: Guid(0294483e34758f340af86df32a224804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/417872__agim__jungle-in-maharashtra-at-night.m4a using Guid(0294483e34758f340af86df32a224804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceaab1f1ae1bc28df21211d5e92e40d') in 0.034257 seconds
-  Import took 0.049409 seconds .
+  Time since last request: 6.957211 seconds.
+  path: Assets/ExternAssets/sounds/tiger-roar.flac
+  artifactKey: Guid(956bd146c176bdc4a9c7e35076f18173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/tiger-roar.flac using Guid(956bd146c176bdc4a9c7e35076f18173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18a3e30a7d365e6892eeec14d78328e') in 0.021392 seconds
+  Import took 0.030538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.780651 seconds.
-  path: Assets/ExternAssets/sounds/jungle night_1.m4a
-  artifactKey: Guid(0294483e34758f340af86df32a224804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/jungle night_1.m4a using Guid(0294483e34758f340af86df32a224804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6013f22b5841ca2fea7395b18f9d8b1d') in 0.010665 seconds
-  Import took 0.020147 seconds .
+  Time since last request: 192.420528 seconds.
+  path: Assets/ExternAssets/sounds/tigersnar (online-audio-converter.com).mp3
+  artifactKey: Guid(992532e58cb7eb44ea8056626fabda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/tigersnar (online-audio-converter.com).mp3 using Guid(992532e58cb7eb44ea8056626fabda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ec1b6770e04eacef16b994bdc85c09') in 0.022729 seconds
+  Import took 0.037267 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 438.151517 seconds.
-  path: Assets/ExternAssets/sounds/417532__aurelien-leveque__night-valley-jungle.wav
-  artifactKey: Guid(0eaf88133e347224283b723a6bad3e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/417532__aurelien-leveque__night-valley-jungle.wav using Guid(0eaf88133e347224283b723a6bad3e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaebd3dbf5c9f231c54e559e83c2a8b') in 0.075615 seconds
-  Import took 0.085286 seconds .
+  Time since last request: 0.001743 seconds.
+  path: Assets/ExternAssets/sounds/tigersnar (online-audio-converter.com).mp3
+  artifactKey: Guid(992532e58cb7eb44ea8056626fabda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/tigersnar (online-audio-converter.com).mp3 using Guid(992532e58cb7eb44ea8056626fabda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ec1b6770e04eacef16b994bdc85c09') in 0.011753 seconds
+  Import took 0.023322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.546439 seconds.
-  path: Assets/ExternAssets/sounds/jungle_night.wav
-  artifactKey: Guid(0eaf88133e347224283b723a6bad3e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/jungle_night.wav using Guid(0eaf88133e347224283b723a6bad3e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fd8c16f4d9cfe2e03a6a7ceabde47f') in 0.018063 seconds
-  Import took 0.029230 seconds .
+  Time since last request: 12.525960 seconds.
+  path: Assets/ExternAssets/sounds/tiger_snar.mp3
+  artifactKey: Guid(992532e58cb7eb44ea8056626fabda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/tiger_snar.mp3 using Guid(992532e58cb7eb44ea8056626fabda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacdf1189c21dcb46633b45d6faab67e') in 0.018198 seconds
+  Import took 0.028026 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 180.949036 seconds.
-  path: Assets/ExternAssets/sounds/salamisound-6463175-rascheln-im-gebuesch-stroh.mp3
-  artifactKey: Guid(86b5981d4346dc24894182a46902feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/salamisound-6463175-rascheln-im-gebuesch-stroh.mp3 using Guid(86b5981d4346dc24894182a46902feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206efd085dc20a7f139bfe862a33be79') in 0.016643 seconds
-  Import took 0.026857 seconds .
+  Time since last request: 1203.346816 seconds.
+  path: Assets/ExternAssets/sounds/go away.mp3
+  artifactKey: Guid(06342cf42834880448d1264d43f922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/go away.mp3 using Guid(06342cf42834880448d1264d43f922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddf0073d6c3116792d74d693b6b48b0') in 0.016572 seconds
+  Import took 0.027904 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.066506 seconds.
-  path: Assets/ExternAssets/sounds/bush_noise.mp3
-  artifactKey: Guid(86b5981d4346dc24894182a46902feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/bush_noise.mp3 using Guid(86b5981d4346dc24894182a46902feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638a08d1369ec86c55b996611545b10') in 0.014295 seconds
-  Import took 0.023411 seconds .
+  Time since last request: 0.002043 seconds.
+  path: Assets/ExternAssets/sounds/go away.mp3
+  artifactKey: Guid(06342cf42834880448d1264d43f922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/go away.mp3 using Guid(06342cf42834880448d1264d43f922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddf0073d6c3116792d74d693b6b48b0') in 0.009651 seconds
+  Import took 0.018582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 603.922846 seconds.
-  path: Assets/ExternAssets/sounds/f_we should get out of here.mp3
-  artifactKey: Guid(f764d5ef7e41b2b468de39ea3e4bdd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/f_we should get out of here.mp3 using Guid(f764d5ef7e41b2b468de39ea3e4bdd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa7d525b8ae919d66c5634704b78a91') in 0.018734 seconds
-  Import took 0.029529 seconds .
+  Time since last request: 6.774751 seconds.
+  path: Assets/ExternAssets/sounds/m_go away.mp3
+  artifactKey: Guid(06342cf42834880448d1264d43f922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/m_go away.mp3 using Guid(06342cf42834880448d1264d43f922b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f5e2b2908c99c52c7efe2f09cca50') in 0.015623 seconds
+  Import took 0.024479 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006976 seconds.
-  path: Assets/ExternAssets/sounds/f_we should get out of here.mp3
-  artifactKey: Guid(f764d5ef7e41b2b468de39ea3e4bdd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/f_we should get out of here.mp3 using Guid(f764d5ef7e41b2b468de39ea3e4bdd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa7d525b8ae919d66c5634704b78a91') in 0.014633 seconds
-  Import took 0.024948 seconds .
+  Time since last request: 70.750265 seconds.
+  path: Assets/ExternAssets/sounds/ttsMP3.com_VoiceText_2021-7-28_0_28_15.mp3
+  artifactKey: Guid(7902f0f8a728ac3439f03ee54918ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/sounds/ttsMP3.com_VoiceText_2021-7-28_0_28_15.mp3 using Guid(7902f0f8a728ac3439f03ee54918ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6a6ca4b0019e0dc6632956704b653d') in 0.015758 seconds
+  Import took 0.025940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.736741 seconds.
-  path: Assets/ExternAssets/sounds/hear_somthing.mp3
-  artifactKey: Guid(1df04b816ba39c5448f3ffbd3d7c3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/hear_somthing.mp3 using Guid(1df04b816ba39c5448f3ffbd3d7c3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499a9dabc16cc3795e2efdbdd652afcd') in 0.012795 seconds
-  Import took 0.021694 seconds .
+  Time since last request: 1591.249761 seconds.
+  path: Assets/InternAssets/Characters/testMan.fbx
+  artifactKey: Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternAssets/Characters/testMan.fbx using Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ea22ae0e8fa4208627441876e60ba5') in 2.645955 seconds
+  Import took 2.655390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.559791 seconds.
-  path: Assets/ExternAssets/sounds/f_hear_somthing.mp3
-  artifactKey: Guid(1df04b816ba39c5448f3ffbd3d7c3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/f_hear_somthing.mp3 using Guid(1df04b816ba39c5448f3ffbd3d7c3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784a1920e1fe4537b24b02441db59452') in 0.016127 seconds
-  Import took 0.025112 seconds .
+  Time since last request: 9.072943 seconds.
+  path: Assets/InternAssets/Characters/testMan.fbx
+  artifactKey: Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternAssets/Characters/testMan.fbx using Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85681c4596bd062d91fed8d21374cc1') in 2.251159 seconds
+  Import took 2.259884 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.519134 seconds.
-  path: Assets/ExternAssets/sounds/never mind.mp3
-  artifactKey: Guid(6f7e4d151ad552a48bca52c306c700d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/never mind.mp3 using Guid(6f7e4d151ad552a48bca52c306c700d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdf9006c6a38664e982ea4ad555d6e4') in 0.014266 seconds
-  Import took 0.023889 seconds .
+  Time since last request: 6.073839 seconds.
+  path: Assets/InternAssets/Characters/testMan.fbx
+  artifactKey: Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternAssets/Characters/testMan.fbx using Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ea8e236fbc4f92207af578fa292ce9') in 2.302753 seconds
+  Import took 2.311429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.728377 seconds.
-  path: Assets/ExternAssets/sounds/f_never mind.mp3
-  artifactKey: Guid(6f7e4d151ad552a48bca52c306c700d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/f_never mind.mp3 using Guid(6f7e4d151ad552a48bca52c306c700d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f579040b9fc0746d547b8ea8347678b7') in 0.011951 seconds
-  Import took 0.021898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.010256 seconds.
-  path: Assets/ExternAssets/sounds/yeah m OK,.mp3
-  artifactKey: Guid(3abfc362eea14d642a50b70ff010c1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/yeah m OK,.mp3 using Guid(3abfc362eea14d642a50b70ff010c1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddeab8249ec4bcf366f460d62c4e23d') in 0.013651 seconds
-  Import took 0.024075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.191486 seconds.
-  path: Assets/ExternAssets/sounds/f_yeah m OK,.mp3
-  artifactKey: Guid(3abfc362eea14d642a50b70ff010c1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/f_yeah m OK,.mp3 using Guid(3abfc362eea14d642a50b70ff010c1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814455d96c344bfea0e3373cab601ef7') in 0.013007 seconds
-  Import took 0.022804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.861530 seconds.
-  path: Assets/ExternAssets/sounds/ARE YOU okay.mp3
-  artifactKey: Guid(b8b2387ce2304b74787a49617bb5bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/ARE YOU okay.mp3 using Guid(b8b2387ce2304b74787a49617bb5bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c229353bfe011ec74e1cef9238b64384') in 0.016110 seconds
-  Import took 0.026282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.941284 seconds.
-  path: Assets/ExternAssets/sounds/m_ARE YOU okay.mp3
-  artifactKey: Guid(b8b2387ce2304b74787a49617bb5bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/m_ARE YOU okay.mp3 using Guid(b8b2387ce2304b74787a49617bb5bd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab6e2a744353a02606fac77c225ee35') in 0.013458 seconds
-  Import took 0.022274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.533244 seconds.
-  path: Assets/ExternAssets/sounds/me too.mp3
-  artifactKey: Guid(1c71d8627a5c1614188e7e56140509e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/me too.mp3 using Guid(1c71d8627a5c1614188e7e56140509e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea69df69252d2ef109f8e7b1853bed5') in 0.016602 seconds
-  Import took 0.026015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001499 seconds.
-  path: Assets/ExternAssets/sounds/me too.mp3
-  artifactKey: Guid(1c71d8627a5c1614188e7e56140509e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/me too.mp3 using Guid(1c71d8627a5c1614188e7e56140509e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea69df69252d2ef109f8e7b1853bed5') in 0.009223 seconds
-  Import took 0.018738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.227381 seconds.
-  path: Assets/ExternAssets/sounds/m_me too.mp3
-  artifactKey: Guid(1c71d8627a5c1614188e7e56140509e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/m_me too.mp3 using Guid(1c71d8627a5c1614188e7e56140509e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fef594fd36f546597aa7e9b6fe4b681') in 0.012820 seconds
-  Import took 0.022103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.208655 seconds.
-  path: Assets/ExternAssets/sounds/damn it was very close.mp3
-  artifactKey: Guid(4ee36ee7e77abbb439b7e34ae77546f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/damn it was very close.mp3 using Guid(4ee36ee7e77abbb439b7e34ae77546f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda6d081ffef9ab4001d02df60d23a29') in 0.013757 seconds
-  Import took 0.023298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.532229 seconds.
-  path: Assets/ExternAssets/sounds/m_damn it was very close.mp3
-  artifactKey: Guid(4ee36ee7e77abbb439b7e34ae77546f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternAssets/sounds/m_damn it was very close.mp3 using Guid(4ee36ee7e77abbb439b7e34ae77546f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dc514edb95580e647bf0b9617af797') in 0.016368 seconds
-  Import took 0.025235 seconds .
+  Time since last request: 12.252379 seconds.
+  path: Assets/InternAssets/Characters/testMan.fbx
+  artifactKey: Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternAssets/Characters/testMan.fbx using Guid(3c8ad217b2d8f9944b014722f77a4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d68e60c9164a9fbb49889a5cb578185') in 2.405397 seconds
+  Import took 2.417770 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

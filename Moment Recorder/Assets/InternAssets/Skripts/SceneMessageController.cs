@@ -41,10 +41,22 @@ public class SceneMessageController : MonoBehaviour
     {
         if (explanationStep != null)
         {
-            explanationStep.text.SetActive(true);
-            yield return new WaitForSeconds(explanationStep.time);
-            explanationStep.text.SetActive(false);
-            explanationStep.SetShowned(true);
+            if(explanationWanted)
+            {
+                explanationStep.text.SetActive(true);
+                yield return new WaitForSeconds(explanationStep.time);
+                explanationStep.text.SetActive(false);
+                explanationStep.SetShowned(true);
+            }
+            else
+            {
+                explanationStep.text.SetActive(false);
+                explanationStep.SetShowned(true);
+            }
+        }
+        else
+        {
+            messageBackground.SetActive(false);
         }
     }
 
@@ -85,6 +97,22 @@ public class SceneMessageController : MonoBehaviour
     {
         messageBackground.SetActive(false);
         sceneEnd.text.SetActive(false);
+    }
+
+    public void SkipInstruction()
+    {
+        for (int i = 0; i < explanationSteps.Count; i++)
+        {
+            explanationSteps[i].SetShowned(true);
+        }
+
+        StopCoroutine(coroutine);
+
+        StopAllCoroutines();
+
+        explanationWanted = false;
+        endReached = true;
+        messageBackground.SetActive(false);
     }
 }
 
