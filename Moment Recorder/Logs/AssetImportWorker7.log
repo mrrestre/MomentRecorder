@@ -1,0 +1,138 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'de' Physical Memory: 8065 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+49624
+Successfully changed project path to: C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder
+C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 765.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 2.23 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/benit/Documents/Unity/MomentRecorder/Moment Recorder/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x179c)
+    Vendor:   
+    VRAM:     987 MB
+    Driver:   27.21.14.6627
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007279 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 600.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.264 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.034164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 354.04 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.61.0
+Mono: successfully reloaded assembly
+- Completed reload, in  7.533 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+Refreshing native plugins compatible for Editor in 4.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 4759 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.2 MB.
+System memory in use after: 253.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5210.
+Total: 28.995700 ms (FindLiveObjects: 1.867100 ms CreateObjectMapping: 2.396900 ms MarkObjects: 14.180700 ms  DeleteObjects: 10.546800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ExternAssets/Valentines Day Items/Models/valentines_card_01.fbx
+  artifactKey: Guid(770073eea805c6341a44dcfe06e1c03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/Valentines Day Items/Models/valentines_card_01.fbx using Guid(770073eea805c6341a44dcfe06e1c03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf469eb7ef2e97a20d4c14a0916ded4a') in 1.143585 seconds
+  Import took 1.218788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/ExternAssets/Valentines Day Items/Models/chocolate_box_02.fbx
+  artifactKey: Guid(da23fa822d063054fa6c30666415e90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/Valentines Day Items/Models/chocolate_box_02.fbx using Guid(da23fa822d063054fa6c30666415e90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d1b9dd29a710dc51f4746927b2df83') in 6.760852 seconds
+  Import took 6.809351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/ExternAssets/Valentines Day Items/Models/valentines_ring_01.fbx
+  artifactKey: Guid(917cddfe2e7b8c84b82d58ff52da3721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/Valentines Day Items/Models/valentines_ring_01.fbx using Guid(917cddfe2e7b8c84b82d58ff52da3721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2971105d083eef7ad799834992f1beca') in 4.540602 seconds
+  Import took 4.583749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/ExternAssets/Valentines Day Items/Models/valentines_ring_02.fbx
+  artifactKey: Guid(b3cb84068cef17f448a406560c52d139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/Valentines Day Items/Models/valentines_ring_02.fbx using Guid(b3cb84068cef17f448a406560c52d139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebec444842db395786f160e4b065c5c') in 4.809650 seconds
+  Import took 4.838539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1497.859406 seconds.
+  path: Assets/ExternAssets/Sounds 1
+  artifactKey: Guid(04588caceb337a04eb9fe3aa06dbc9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/Sounds 1 using Guid(04588caceb337a04eb9fe3aa06dbc9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cde182e295b2ed83ae14130236ecd5e') in 0.020236 seconds
+  Import took 0.237057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1571.970912 seconds.
+  path: Assets/Scenes/RedScene.unity
+  artifactKey: Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RedScene.unity using Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904296180979c24b07fe96b2a0f670e') in 0.243418 seconds
+  Import took 0.283060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.355380 seconds.
+  path: Assets/ExternAssets/Sounds 1/PTT-20210731-WA0022.mp3
+  artifactKey: Guid(970cc4818cfece144826ff31473c710f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternAssets/Sounds 1/PTT-20210731-WA0022.mp3 using Guid(970cc4818cfece144826ff31473c710f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b7c0fcd7e0662cf697e0029adf052') in 0.421066 seconds
+  Import took 0.455646 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
